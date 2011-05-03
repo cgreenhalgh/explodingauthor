@@ -296,8 +296,8 @@ public class Datastore {
 		String startYear = getStartYear();
 		String endYear = getEndYear();
 
-		if (!checkYears(startYear, endYear))
-			return null;
+		//if (!checkYears(startYear, endYear))
+		//	return null;
 
 
 		XMLUtil.addElement(gameState, xmlDoc, "startYear", startYear);
